@@ -1774,7 +1774,11 @@ const UserModal = ({ user, onClose, onSave }) => {
 // Main App Component
 const FleetManagementApp = () => {
   const [user, setUser] = useState(null);
-  const [vehicles, setVehicles] = useState(initialVehicles);
+  import { useVehicles, useBookings, useUsers } from './useFirestore';
+
+  const { data: vehicles, addItem: addVehicle } = useVehicles();
+  const { data: bookings, addItem: addBooking } = useBookings();
+
   const [bookings, setBookings] = useState(initialBookings);
   const [users, setUsers] = useState(initialUsers);
   const [selectedVehicle, setSelectedVehicle] = useState(null);
