@@ -5,12 +5,13 @@ import { getFirestore } from 'firebase/firestore';
 // החלף את הערכים האלה בקונפיגורציה שלך מ-Firebase Console
 // https://console.firebase.google.com/
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY_HERE",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCHWrs4PFFV4h7Tfu4oMAEdQbQduzHc2xQ",
+  authDomain: "carmannegement501-7eabe.firebaseapp.com",
+  projectId: "carmannegement501-7eabe",
+  storageBucket: "carmannegement501-7eabe.firebasestorage.app",
+  messagingSenderId: "463045939161",
+  appId: "1:463045939161:web:7e55d6590a9727aace53c8",
+  measurementId: "G-Y39SN2Z09P"
 };
 
 // Initialize Firebase
